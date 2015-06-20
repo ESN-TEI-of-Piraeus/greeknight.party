@@ -20,6 +20,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
+    font-color: white;
 }
 
 .text-vertical-center h1 {
@@ -151,6 +152,7 @@ hr.small {
 /* Header */
 
 .header {
+    color : rgb(250,250,235);
     display: table;
     position: relative;
     width: 100%;
@@ -200,10 +202,14 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    max-height: 384px;
+    max-width: 512px;
 }
 
 .img-portfolio {
-    margin: 0 auto;
+    margin: 0 0 0 0;
+    max-height: 384px;
+    max-width: 512px;
 }
 
 .img-portfolio:hover {
